@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    position: relative;
+    background-image: url(./fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+}
+header{
+    background-color: #20222c;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    font-size: 30px;
+    color: white;
+    order: 1;
+    margin: 10px 10px;
+}
+.logo {
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container a{
+    background-color: rgb(19,19,19);
+    border-radius: 30px;
+    height: auto;
+    width: 100%;
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+    margin: 50px ;
+    padding: 20px;
+}
+.container:hover{
+    transform: translateY(10px);
+}
+.container .text {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.container .image img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.footer{
+    background-color: #20222c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+}
+.footer a{
+    font-size: 50px;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+
